@@ -48,7 +48,7 @@ Go to the [Release](https://github.com/storyicon/graphquery-http/releases) page,
 > Response          
                  
 | Name | Type | Default | Intro                   |
-|------|------|--------|--------|--------------------------|
+|------|------|--------|--------|
 | data | string |     | analyzed result   |
 | error |  string   |     | errors that occur during parsing |
 | timecost | int    |  0   | time spent |
