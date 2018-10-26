@@ -22,7 +22,7 @@
 
 ![GraphQuery](https://raw.githubusercontent.com/storyicon/graphquery/master/docs/screenshot/graphquery.png)   
 
-[GraphQuery](https://github.com/storyicon/graphquery) is a query language and execution engine tied to any backend service.GraphQuery-PlayGround is a web application for practicing, learning and testing GraphQuery.
+[GraphQuery](https://github.com/storyicon/graphquery) is a query language and execution engine tied to any backend service.            
 
 GraphQuery-http is a service that implements `cross-language` calls to GraphQuery via the `HTTP` protocol.
 
