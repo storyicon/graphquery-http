@@ -90,7 +90,7 @@ Support parameter:
 If you don't want to use the [release version](https://github.com/storyicon/graphquery-http/releases) and want to modify the source code, you can read the following steps to compile.
 
 ```
-go get github.com/storyicon/graphquery-http
+go get -u github.com/storyicon/graphquery-http
 ```
 
 Find the downloaded `storyicon/graphquery-http` in GOPATH, 
