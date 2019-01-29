@@ -23,7 +23,7 @@ type Response struct {
 	// Data is the carrier for returning data.
 	Data interface{} `json:"data"`
 	// Error records the errors in this request.
-	Error string `json:"error"`
+	Error error `json:"error"`
 	// TimeCost recorded the time wastage of the request.
 	TimeCost int64 `json:"timecost"`
 }
@@ -39,7 +39,7 @@ func Start() {
 		expression := c.PostForm("expression")
 		timeStart := time.Now().UnixNano()
 		conseq := graphquery.ParseFromString(document, expression)
-		err := ""
+		var err error
 		if len(conseq.Errors) > 0 {
 			err = conseq.Errors[0]
 		}
